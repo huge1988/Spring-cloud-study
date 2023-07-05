@@ -3,6 +3,21 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4525000d-90bb-4134-acb8-2c18ad055055" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +35,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/micro-service-cloud-consumer-dept-feign/src/main/java/com/huge/feign/controller/Controller.java" root0="SKIP_INSPECTION" />
@@ -45,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/micro-service-cloud-eureka-7003/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,19 +108,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DashboardApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="micro-service-cloud-consumer-dept-80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huge.consumer1.ConsumerApplication" />
@@ -196,11 +206,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HysTrixApplication" />
         <item itemvalue="Spring Boot.DashboardApplication" />
         <item itemvalue="Spring Boot.EurekaApplication (3)" />
         <item itemvalue="Spring Boot.EurekaApplication (2)" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.HysTrixApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -220,17 +230,44 @@
       <workItem from="1688112335933" duration="7983000" />
       <workItem from="1688184534190" duration="5253000" />
       <workItem from="1688348789743" duration="6662000" />
+      <workItem from="1688543924912" duration="1010000" />
+      <workItem from="1688546085147" duration="1169000" />
+      <workItem from="1688549333856" duration="1094000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1687855562443">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1688549730148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1687855562443" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1688549730148" />
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1687943036019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -247,6 +284,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1687946229384" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1688545708950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1688545708950" />
     <state width="1024" height="369" key="GridCell.Tab.0.bottom" timestamp="1688364589504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,6 +340,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1687939406850" />
+    <state x="361" y="145" width="985" height="533" key="Vcs.Push.Dialog.v2" timestamp="1688549572534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" width="985" height="533" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1688549572534" />
+    <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1688550256756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1688550256756" />
     <state x="401" y="73" key="new project wizard" timestamp="1688355399416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
