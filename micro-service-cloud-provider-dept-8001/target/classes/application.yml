@@ -1,0 +1,25 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microServiceCloudProviderDept  #微服务名称，对外暴漏的微服务名称，十分重要
+
+eureka:
+  client:
+    service-url:
+      # defaultZone: http://localhost:7001/eureka  #这个地址是 7001注册中心在 application.yml 中暴露出来额注册地址 -
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  #将服务注册到 Eureka Server 集群
+
+  instance:
+    instance-id: spring-cloud-provider-8001 #自定义服务名称信息
+    prefer-ip-address: true #显示访问路径的 ip 地址
+
+# Spring Boot 2.50对 actuator 监控屏蔽了大多数的节点，只暴露了 heath 节点，本段配置（*）就是为了开启所有的节点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号
+
+info:
+  app.name: micro-service-cloud-provider-dept
