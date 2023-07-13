@@ -16,6 +16,7 @@
         <module>micro-service-cloud-provider-dept-8003</module>
         <module>micro-service-cloud-provider-dept-hystrix-8004</module>
         <module>micro-service-cloud-consumer-dept-hystrix-dashboard-9002</module>
+        <module>micro-service-cloud-gateway-9527</module>
     </modules>
     <groupId>spring-cloud-demo2</groupId>
     <artifactId>spring-boot-cloud</artifactId>
